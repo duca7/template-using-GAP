@@ -2,4 +2,45 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
-/*===== GOOGLE FONTS =====*/
+/*===== GENERAL =====*/
+
+body {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*===== NAVBAR =====*/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 0 30px;
+}
+
+.social li {
+    display: inline-block;
+}
+
+
+/*===== BACKGROUND TEXT =====*/
+
+.bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 450px;
+    text-align: center;
+    color: transparent;
+    -webkit-text-stroke: 3px #444;
+}
